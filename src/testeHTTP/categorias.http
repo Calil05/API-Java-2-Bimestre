@@ -1,0 +1,14 @@
+@url = https://8080-calil05-apijava2bimestr-g65flu6dphu.ws-us116.gitpod.io
+
+###
+
+GET {{url}}/categorias
+
+###
+
+POST {{url}}/categorias
+Content-Type: application/json
+
+{
+    "nome": "Arquitetura de APIs"
+}
